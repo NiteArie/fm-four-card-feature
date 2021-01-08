@@ -2,7 +2,13 @@
 
 ## Design Preview
 
+> Desktop
+
 ![Design preview](./design/desktop-preview.jpg)
+
+> Mobile
+
+![Mobile Preview](./design/mobile-design.jpg)
 
 ## General
 
