@@ -101,3 +101,29 @@ body {
     color: hsl(229, 6%, 66%);
     line-height: 1.5;
 }
+
+@media only screen and (max-width: 1080px) {
+
+    .container {
+        height: auto;
+    }
+
+    .container__hero {
+        margin-top: 40px;
+    }
+
+    .container__hero__desc {
+        width: 400px;
+    }
+
+    .container__grid {
+        display: grid;
+        max-width: 500px;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .container__grid__section {
+        width: 375px;
+    }
+}
