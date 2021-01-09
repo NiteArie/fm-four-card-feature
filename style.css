@@ -68,26 +68,32 @@ body {
     background-color: white;
     border-radius: 5px;
     box-shadow: 0 5px 10px 2px hsla(0, 0%, 0%, .1);
+    background-repeat: no-repeat;
+    background-position: bottom 15% right 10%;
 }
 
 
 .container__grid__section__supervisor {
-    border-top: 4px solid hsl(180, 62%, 55%);
     align-self: center;
+    border-top: 4px solid hsl(180, 62%, 55%);
+    background-image: url("images/icon-supervisor.svg");
 }
 
 .container__grid__section__team-builder {
-    border-top: 4px solid hsl(0, 78%, 62%);
     margin-bottom: 25px;
+    border-top: 4px solid hsl(0, 78%, 62%);
+    background-image: url("images/icon-team-builder.svg");
 }
 
 .container__grid__section__karma {
     border-top: 4px solid hsl(34, 97%, 64%);
+    background-image: url("images/icon-karma.svg");
 }
 
 .container__grid__section__calculator {
-    border-top: 4px solid hsl(212, 86%, 64%);
     align-self: center;
+    border-top: 4px solid hsl(212, 86%, 64%);
+    background-image: url("images/icon-calculator.svg");
 }
 
 .container__grid__section__card__title {
