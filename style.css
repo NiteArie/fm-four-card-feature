@@ -7,4 +7,97 @@
 body {
     font-family: "Poppins", sans-serif;
     font-size: 15px;
+    color: hsl(234, 12%, 34%);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.container__hero {
+    text-align: center;
+}
+
+.container__hero__sub-title {
+    margin: 10px 0;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.container__hero__title {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.container__hero__desc {
+    margin: 0 auto;
+    width: 500px;
+    line-height: 1.5;
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.container__grid {
+    margin-top: 50px;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 25px;
+}
+
+.container__grid__section {
+    display: flex;
+}
+
+.container__grid__section:nth-child(2) {
+    flex-direction: column;
+}
+
+.container__grid__section__card {
+    width: 100%;
+    height: 200px;
+    padding: 30px 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px 2px hsla(0, 0%, 0%, .1);
+}
+
+
+.container__grid__section__supervisor {
+    border-top: 4px solid hsl(180, 62%, 55%);
+    align-self: center;
+}
+
+.container__grid__section__team-builder {
+    border-top: 4px solid hsl(0, 78%, 62%);
+    margin-bottom: 25px;
+}
+
+.container__grid__section__karma {
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.container__grid__section__calculator {
+    border-top: 4px solid hsl(212, 86%, 64%);
+    align-self: center;
+}
+
+.container__grid__section__card__title {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.container__grid__section__card__desc {
+    font-size: 13px;
+    color: hsl(229, 6%, 66%);
+    line-height: 1.5;
 }
